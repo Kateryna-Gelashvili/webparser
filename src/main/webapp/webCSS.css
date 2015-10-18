@@ -1,0 +1,46 @@
+body {
+    background-color: orange;
+    font-family: arial, verdana, sans-serif;
+}
+
+input{
+    background-color: lightcyan;
+}
+
+input.button{
+    background-color: darkgray;
+}
+
+table.list{
+    width: 100%;
+    border: thin solid black;
+    table-layout: fixed;
+    background-color: aqua;
+}
+th{
+    border: thin solid black;
+    text-align: center;
+    background-color: darkcyan;
+}
+tr.list{
+    background-color: darkcyan;
+}
+th.name{
+    width: 40%;
+}
+
+td{
+    border: thin solid black;
+    text-align: left;
+}
+
+td.price{
+    border: thin solid black;
+    text-align: right;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: underline;
+    color: #6A5ACD;
+    background-color: transparent;
+}
